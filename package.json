@@ -24,6 +24,9 @@
   ],
   "author": "daliusd",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "deepl-node": "^1.15.0"
   },
