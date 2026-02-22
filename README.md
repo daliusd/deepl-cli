@@ -142,6 +142,16 @@ npm run build
 npm publish --access public
 ```
 
+## Agent Skill
+
+This project includes an [Agent Skill](https://agentskills.io/) that enables AI coding agents (Claude Code, Cursor, Windsurf, etc.) to use deepl-cli for translation tasks.
+
+Install the skill:
+
+```bash
+npx skills add daliusd/deepl-cli
+```
+
 ## License
 
 [MIT](LICENSE)
