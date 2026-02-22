@@ -1,0 +1,35 @@
+{
+  "name": "@daliusd/deepl-cli",
+  "version": "0.1.0",
+  "description": "CLI tool for translating text using the DeepL API",
+  "type": "module",
+  "bin": {
+    "deepl-cli": "dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node --import tsx --test tests/*.test.ts"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "deepl",
+    "translate",
+    "translation",
+    "cli"
+  ],
+  "author": "daliusd",
+  "license": "MIT",
+  "dependencies": {
+    "deepl-node": "^1.15.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0"
+  }
+}
